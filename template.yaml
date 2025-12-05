@@ -170,7 +170,7 @@ Resources:
       Timeout: 180
       Architectures:
         - x86_64
-      ReservedConcurrentExecutions: 10
+      ReservedConcurrentExecutions: 5
       Environment:
         Variables:
           LOG_LEVEL: INFO
